@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viewing Style</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      .transactions
+      {
+        width: 400px;
+        margin: 75px;
+
+      }
+      ul{
+        border: 1px solid rgb(225, 225, 215);
+        border-radius: 10px;
+        list-style: none;
+        padding: 20px;
+      }
+      li
+      {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 1px solid rgb(223, 223, 221);
+      }
+      li:last-child
+      {
+        border-bottom: 0;
+      }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column1" >
+          <h2>Max Life Insurance</h2>
+          <div class="card">
+            <img src="./top.jpg" alt="insurance" style="width:100%">
+            
+          </div>
+          
+        </div>
+        <div class="column2" >  
+          
+          <div>
+            <h2 class="transactions">Recent Transactions</h2>
+            <ul>
+              <li>
+                <span>ID</span>
+                <span>1234</span>
+              </li>
+              <li>
+                <span>mode</span>
+                <span>
+                  <select>
+                    <option value="neft">NEFT</option>
+                    <option value="upi">UPI</option>
+                    <option value="rtgs">RTGS</option>
+
+                </select>
+                
+              </span>
+              </li>
+              <li>
+                <SPAN>Type</SPAN>
+                <select>
+                  <option value="debit">Debit</option>
+                  <option value="credit">Credit</option>
+                </select>
+              </li>
+              <li>
+                <span>Amount</span>
+                <span>500</span>
+              </li>
+              <li>
+                <span>Date</span>
+                <span>17-03-2023</span>
+              </li>
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      
+</body>
+</html>
