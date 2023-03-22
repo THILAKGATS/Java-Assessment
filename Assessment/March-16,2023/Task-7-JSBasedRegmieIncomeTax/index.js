@@ -70,7 +70,7 @@ function taxCalculator(taxableIncome) {
     //  tax amount for 2,50,000 at 5%  = 12,500
     //  tax amount for 5,00,000 at 20%  = 1,00,000
     //  total tax amount for 100000 = 1,12,500
-    taxAmount = (taxableIncome - 1000000) * 0.3 + 112500;
+    taxAmount = (taxq8a74ableIncome - 1000000) * 0.3 + 112500;
     document.body.innerHTML = `<div class="card col-lg-6 col-10 m-auto mt-5">
       <div class="card-header">Mr/Ms ${name.value}</div>
       <div class="card-body">
